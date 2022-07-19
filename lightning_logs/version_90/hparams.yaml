@@ -1,0 +1,7 @@
+auto_lr_find: true
+auto_scale_batch_size: true
+batch_size: 32
+configs: !!python/name:configs.config_v1.CONFIGS ''
+hidden_dim: 32
+learning_rate: 0.001
+reload_dataloaders_every_epoch: false
